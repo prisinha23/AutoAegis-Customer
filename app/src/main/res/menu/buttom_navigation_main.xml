@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/navigation_home"
+     android:icon="@drawable/ic_home_black_24dp"
+     android:title="Home"
+     android:iconTint="#FFFAFA"></item>
+    <item android:id="@+id/navigation_mechanic"
+        android:icon="@drawable/mechaic"
+        android:title="Mechanic Service"
+        android:iconTint="#FFFAFA"></item>
+    <item android:id="@+id/navigation_tyre"
+        android:icon="@drawable/tyre_services"
+        android:title="Tyre Service"
+        android:iconTint="#FFFAFA"></item>
+    <item android:id="@+id/navigation_insurance"
+        android:icon="@drawable/insurance_image_white"
+        android:title="Insurance service"
+        android:iconTint="#FFFAFA"></item>
+    <item android:id="@+id/navigation_myaccount"
+        android:icon="@drawable/user_icon_circle"
+        android:title="My Account"
+        android:iconTint="#FFFAFA"></item>
+</menu>

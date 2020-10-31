@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#D51C1C">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#D51C1C"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_marginLeft="40dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#D51C1C"
+                android:fontFamily="@font/alegreya_sc"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="Insurance Services Product List"
+                android:textColor="#fff"
+                android:textSize="18sp"
+                android:textStyle="bold"></TextView>
+            <ImageView
+                android:id="@+id/my_cart"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/cart_icon_grey"></ImageView>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/location_white"
+                android:layout_marginLeft="30dp"
+                android:layout_gravity="center"></ImageView>
+            <Spinner
+                android:id="@+id/location_select"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textColor="#fff"
+                android:background="@drawable/border_white_rectangle"
+                android:textAlignment="center"
+                android:textSize="18sp"></Spinner>
+        </LinearLayout>
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/insurance_list"
+        android:layout_marginTop="83dp"
+        android:layout_width="match_parent"
+        android:background="#000"
+        android:layout_height="match_parent" />
+</RelativeLayout>

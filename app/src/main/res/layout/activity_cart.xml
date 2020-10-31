@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ff00"
+    tools:context=".Cart">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:padding="2dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginRight="10dp"
+        android:orientation="horizontal"
+        android:background="#000">
+        <TextView
+            android:id="@+id/clear_cart_text"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Clear My cart"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="180dp"
+            android:textSize="20sp"
+            android:textColor="#fff"></TextView>
+        <ImageView
+            android:id="@+id/clear_cart"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="0dp"
+            android:src="@drawable/delete_white"></ImageView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:paddingVertical="2dp"
+        android:background="#fff">
+        <Button
+            android:id="@+id/cart_total_amount"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:text="Rs.0/-"></Button>
+        <Button
+            android:id="@+id/cart_payout"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="2dp"
+            android:background="#ff00"
+            android:textColor="#fff"
+            android:text="Proceed to pay"></Button>
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/cart_list"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="58dp"
+        android:background="#000"
+        android:layout_marginTop="58dp"
+        android:layout_height="match_parent" />
+</RelativeLayout>
