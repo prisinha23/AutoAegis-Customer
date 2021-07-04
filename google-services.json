@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "627013452429",
+    "firebase_url": "https://autoaegis-63965.firebaseio.com",
+    "project_id": "autoaegis-63965",
+    "storage_bucket": "autoaegis-63965.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:627013452429:android:cea850ac518c418f2798c4",
+        "android_client_info": {
+          "package_name": "com.autoaegis.autoaegis"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "627013452429-7dobnd6p52jgpi73e8e2c0ngj824i6vb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1rkNdgWUMQ14SDzkLaO9TrvVatvbQRp4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "627013452429-7dobnd6p52jgpi73e8e2c0ngj824i6vb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:627013452429:android:e0da405d42612b9c2798c4",
+        "android_client_info": {
+          "package_name": "com.autoaegis.autoaegisproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "627013452429-7dobnd6p52jgpi73e8e2c0ngj824i6vb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1rkNdgWUMQ14SDzkLaO9TrvVatvbQRp4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "627013452429-7dobnd6p52jgpi73e8e2c0ngj824i6vb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
